@@ -64,13 +64,22 @@ Unbiased Estimator는 파라미터 추정 평균에 대해서 bias값이 0인 �
 Biased Estimator는 파라미터 추정 평균의 bias 값이 0이 아닌 경우
 
 ```
+
 🧐 Variance, MSE란?
+##### variance 
 ```
 Variance는 다양한 데이터 셋에 대하여 예측값이 얼만큼 변화할 수 있는지에 대한 양의 개념. 
 이는 모델이 얼만큼 유동성을 가지는 지에 대한 의미로도 사용되며 분산의 본래 의미와 같이 얼만큼 예측값이 퍼져서 다양하게 출력될 수 있는 정도로 해석할 수있음.
 ```
 <img src='https://user-images.githubusercontent.com/79496166/204948284-82eb5026-3788-4776-8374-a089715ae674.png'/>
 [링크] : https://gaussian37.github.io/machine-learning-concept-bias_and_variance/
+
+##### MSE
+```
+MSE는 오차의 제곱에 대한 평균을 취한 값으로 통계적 추정의 정확성에 대한 질적인 척도로 많이 사용됨
+실제값(관측값)과 추정값의 차이로, 잔차가 얼마인지 알려주는데 많이 사용되는 척도이다.
+MSE가 작을수록 추정의 정확성이 높아짐.
+```
 
 🧐 Sample Variance란 무엇인가?
 ```
